@@ -14,6 +14,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Changed charlists from the deprecated `''` to `~c""`
 - Changed negative range to pass the step of default value for suppressing deprecation warnings
 - Update Gettext to 0.26
+- Relax Gettext dependency to allow >= 0.26.0 (supports both 0.26.x and 1.0.x)
 
 ### Fixed
 
