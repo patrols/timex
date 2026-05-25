@@ -55,7 +55,7 @@ defmodule Timex.Mixfile do
 
   def deps do
     [
-      {:tzdata, "~> 1.1"},
+      {:tzdata, github: "patrols/tzdata", branch: "drop-hackney-for-httpc"},
       {:combine, "~> 0.10"},
       {:gettext, ">= 0.26.0"},
       {:ex_doc, "~> 0.13", only: [:docs]},
